@@ -1,0 +1,18 @@
+body {
+  background-color: silver; }
+
+#neutralinoapp {
+  text-align: center;
+  color: white; }
+
+#neutralinoapp h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: #000000; }
+
+#neutralinoapp a {
+  margin-left: 12px; }
+
+#neutralinoapp span {
+  font-size: 12px;
+  font-weight: normal; }

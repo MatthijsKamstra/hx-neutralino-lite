@@ -1,0 +1,23 @@
+{
+  "license": "MIT",
+  "name": "hx-neutralino-lite",
+  "version": "0.0.1",
+  "description": "Haxe Neutralino lite",
+  "private": true,
+  "author": "Matthijs Kamstra aka [mck]",
+  "scripts": {
+    "build": "npm run build:haxe",
+    "prewatch": "haxe build.hxml",
+    "watch": "npm-run-all --parallel watch:scss watch:haxe",
+    "build:scss": "node-sass style/app.scss app/assets/app.css",
+    "build:haxe": "haxe build.hxml",
+    "watch:scss": "onchange 'style' -- run-s build:scss",
+    "watch:haxe": "onchange 'src/*.hx' 'src/*/*.hx' 'src/*/*/*.hx' 'src/*/*/*/*.hx' -v -- haxe build.hxml"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "latest",
+    "npm-run-all": "latest",
+    "onchange": "latest"
+  }
+}

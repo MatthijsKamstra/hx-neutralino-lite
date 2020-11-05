@@ -1,0 +1,9 @@
+--library haxe-loader
+--class-path src
+--class-path externs
+--main Main
+--js app/assets/app.js
+# --js bin/app/assets/app.js
+# --js out.js
+--dce full
+# -D js-es=6
