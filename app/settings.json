@@ -2,10 +2,10 @@
   "appname": "hx-neutralino",
   "appport": "5006",
   "mode": "window",
-  "iconfile": "neutralino.png",
   "window": {
     "width": "1000",
     "height": "700",
+    "iconfile": "neutralino.png",
     "fullscreen": false
   }
 }
